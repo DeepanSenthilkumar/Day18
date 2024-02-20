@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    background-color: rgb(60, 57, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 140vh;
+    margin-top: 125px;
+    margin-left: 225px;
+  }
+  
+  #cardContainer {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    background: linear-gradient(to right, rgb(233, 233, 190), rgb(98, 96, 96));
+    border-radius: 5px;
+    margin: 10px;
+    padding-bottom: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100px;
+    height: auto;
+  }
+
+  .country-name {
+    background-color: black;
+    border-bottom: 1px solid black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 0px;
+    border-radius: 5px;
+  }
+  
+  
+  .button {
+    background: linear-gradient(to right, rgb(233, 233, 190), rgb(98, 96, 96));
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
